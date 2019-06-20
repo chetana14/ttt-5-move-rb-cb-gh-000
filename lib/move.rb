@@ -8,9 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  amg = input.to_i
-  amg+=1
-  return amg
+  index = input.to_i
+  index+=1
+  return index
 end
 
 def move(board, index, value)
