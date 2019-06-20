@@ -11,6 +11,7 @@ def input_to_index(input)
   input.to_i
   number_adder(input)
   return input
+end
 
 def move(board, index, value)
   board[index] = value
