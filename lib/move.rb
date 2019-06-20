@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
   input.to_i
-  number_adder(input)
+  i+=1
   return input
 end
 
